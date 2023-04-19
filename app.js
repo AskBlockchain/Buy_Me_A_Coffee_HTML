@@ -149,7 +149,15 @@ async function connectWallet() {
 
              // Hide the "Connect Wallet" button
              document.getElementById('connect-wallet').style.display = 'none';
-             
+
+
+             // Fetch and display block number and coffee messages
+             fetchBlockNumber();
+             fetchRecentMessages();
+
+
+
+
             // Call smart contract functions and interact with the frontend.
         } catch (err) {
             console.error('User denied account access:', err);
