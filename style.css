@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c1dfca;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.input-field {
+    display: block;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+}
+
+.coffee-list {
+    margin-top: 20px;
+}
+
+.coffee-item {
+    padding: 10px;
+    background-color: #e6e6e6;
+    margin-bottom: 10px;
+}
+
+.coffee-item p {
+    margin: 0;
+    padding: 0;
+}
