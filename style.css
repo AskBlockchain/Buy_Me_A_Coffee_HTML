@@ -55,3 +55,13 @@ button {
     margin: 0;
     padding: 0;
 }
+
+/* Add this class to your buttons */
+.small-button {
+    padding: 4px 8px; /* Adjust the padding (top/bottom, left/right) as needed */
+    font-size: 12px; /* Adjust the font size as needed */
+    width: auto;
+    white-space: nowrap;
+    /* Add any other desired styles */
+  }
+  
